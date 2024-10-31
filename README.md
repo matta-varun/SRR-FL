@@ -26,9 +26,10 @@ series = {CODASPY '24}
 ```
 
 ## The datasets
-MNIST Dataset
-Medical MNIST Dataset
-CIFAR-10 Dataset
+- MNIST Dataset
+- Medical MNIST Dataset
+- CIFAR-10 Dataset
+
 Download the Medical MNIST dataset from https://www.kaggle.com/datasets/andrewmvd/medical-mnist
 
 ## Requirements 
@@ -39,10 +40,10 @@ Download the Medical MNIST dataset from https://www.kaggle.com/datasets/andrewmv
 Note: The python version used for the experiments: Python 3.8.5
 
 ## Files
-- DATASET_LDPFL.ipynb: The main program that demonstrates our FL on respective datasets. This file includes the main flow of LDPFL.
-- DATASET_FL.py : Codifies the federated learning setup for respective datasets.
-- LDP_Functions.py : Defines all the LDP algorithm related classes and methods.
-- MNIST_Attack.ipynb & InferenceAttackTests.ipynb : Outline various tests carried out as part our attack investigations.
+- **DATASET_LDPFL.ipynb** : The main program that demonstrates our FL on respective datasets. This file includes the main flow of LDPFL.
+- **DATASET_FL.py** : Codifies the federated learning setup for respective datasets.
+- **LDP_Functions.py** : Defines all the LDP algorithm related classes and methods.
+- **MNIST_Attack.ipynb & InferenceAttackTests.ipynb** : Outline various tests carried out as part our attack investigations.
 
 ## Usage
 1. Install the requirements. 
